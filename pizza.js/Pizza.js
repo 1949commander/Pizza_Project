@@ -1,3 +1,6 @@
+$(function() {
+    $('body').removeClass('fade-out');
+});
 function getReceipt() {
     // This initializes our string so it can get passed from
     // function to function, growing line by line intp a full receipt

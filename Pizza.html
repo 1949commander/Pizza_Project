@@ -8,11 +8,13 @@
     <meta name="author" content="Brian Reeves"
     <!-- JavaScript Link at bottom of page -->
     <link rel="stylesheet" href="./pizza.css/Pizza.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <style></style>
 </head>
     <body>
-        <div id=menuBG>
-            <h1 style="margin: 0 0px 0 20px;">Pizza Drill Tutorial</h1>
+        <script>document.body.className += 'fade-out';</script>
+          <div id=menuBG>
+            <h1 style="margin: 0 0px 0 20px; font-size: 8vw;">Pizza Drill Tutorial</h1>
             <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
             <form id="frmMenu">
                     <div class="menu left">
@@ -50,5 +52,6 @@
             </form>
         </div>
         <script src="./pizza.js/Pizza.js"></script>
+
     </body>
 </html>
